@@ -1,0 +1,12 @@
+export SPLUNK_INSTRUMENTATION_METRICS_ENABLED=true
+
+export OTEL_EXPORTER_OTLP_ENDPOINT=http://192.168.15.13:4317
+
+export OTEL_LOG_LEVEL="debug"
+
+export OTEL_SERVICE_NAME="my-node-service"
+
+export SPLUNK_METRICS_ENABLED='true'
+
+## export SPLUNK_DEBUG_METRICS_ENABLED=true
+
