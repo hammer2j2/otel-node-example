@@ -1,3 +1,6 @@
+// zero-code instrumentation
+// https://docs.splunk.com/observability/en/gdi/get-data-in/application/zero-code-overview.html#zero-code-overview
+
 const { MeterProvider, PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
 const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-grpc');
 const { HttpInstrumentation } = require('@opentelemetry/instrumentation-http');

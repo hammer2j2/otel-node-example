@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@splunk/otel": "^3.0.1"
+  }
+}
